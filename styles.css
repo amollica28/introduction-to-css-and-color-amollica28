@@ -1,3 +1,4 @@
+/* Global styles for all pages */
 body {
     background-color: LightGray;
     font-family: Arial, sans-serif;
@@ -5,7 +6,7 @@ body {
 
 /* Navigation bar styling */
 nav {
-    background-color: LightBlue;
+    background-color: DodgerBlue;
     padding: 10px;
 }
 
@@ -26,34 +27,44 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Homepage header and paragraph */
-header h1 {
+/* Homepage header */
+.home-header h1 {
     background-color: DodgerBlue;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-p {
-    background-color: LightGreen;
-    padding: 15px;
-    color: darkgreen;
-}
-
-/* About Me page styles */
-header h1 {
+/* About Me page header */
+.about-header h1 {
     background-color: DarkOrchid;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-p:nth-of-type(1) {
+/* Contact Me page header */
+.contact-header h1 {
+    background-color: DarkRed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    background-color: LightGreen;
+    padding: 15px;
+    color: darkgreen;
+}
+
+/* About Me page - specific paragraph styling */
+.about-intro {
     background-color: LightCoral;
     padding: 15px;
 }
 
-p:nth-of-type(2) {
+.about-hobby {
     background-color: PaleTurquoise;
     padding: 15px;
 }

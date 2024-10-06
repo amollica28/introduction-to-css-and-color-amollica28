@@ -1,12 +1,7 @@
-/* Global styles for all pages */
-body {
-    background-color: #F0F8FF; /* AliceBlue */
-    font-family: Arial, sans-serif;
-}
 
 /* Navigation bar styling */
 nav {
-    background-color: #4682B4; /* SteelBlue */
+    background-color: #333; /* Dark background for the navigation bar */
     padding: 10px;
 }
 
@@ -23,13 +18,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFFFFF; /* White */
+    color: white; /* White text for navigation links */
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
 }
 
 /* Homepage header */
 .home-header h1 {
-    background-color: #FF4500; /* OrangeRed */
+    background-color: #FF4500; /* OrangeRed header for Homepage */
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,67 +37,65 @@ nav ul li a {
 
 /* Homepage paragraph */
 .home-paragraph {
-    background-color: #32CD32; /* LimeGreen */
+    background-color: #32CD32; /* LimeGreen paragraph */
+    color: white;
     padding: 15px;
-    color: #006400; /* DarkGreen */
 }
 
 /* About Me page header */
 .about-header h1 {
-    background-color: #8A2BE2; /* BlueViolet */
+    background-color: #8A2BE2; /* BlueViolet header for About Me page */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* About Me page - Introduction */
+/* About Me page introduction */
 .about-intro {
-    background-color: #FFB6C1; /* LightPink */
+    background-color: #FFB6C1; /* LightPink introduction section */
     padding: 15px;
-    color: #8B0000; /* DarkRed */
+    color: #8B0000; /* DarkRed text color */
 }
 
-/* About Me page - Hobby section */
+/* About Me page hobby section */
 .about-hobby {
-    background-color: #48D1CC; /* MediumTurquoise */
+    background-color: #48D1CC; /* MediumTurquoise hobby section */
     padding: 15px;
-    color: #2F4F4F; /* DarkSlateGray */
+    color: #2F4F4F; /* DarkSlateGray text color */
 }
 
-/* Contact page header */
+/* Contact Me page header */
 .contact-header h1 {
-    background-color: #DC143C; /* Crimson */
+    background-color: #DC143C; /* Crimson header for Contact Me page */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* Contact page form styles */
+/* Contact form styling */
 form label {
-    color: #2E8B57; /* SeaGreen */
+    color: #2E8B57; /* SeaGreen labels */
     font-weight: bold;
-    font-size: 16px;
 }
 
 #name {
-    background-color: #FFFACD; /* LemonChiffon */
+    background-color: #FFFACD; /* LemonChiffon background for Name input */
 }
 
 #email {
-    background-color: #E0FFFF; /* LightCyan */
+    background-color: #E0FFFF; /* LightCyan background for Email input */
 }
 
 #subject {
-    background-color: #F5DEB3; /* Wheat */
+    background-color: #F5DEB3; /* Wheat background for Subject input */
 }
 
 #message {
-    background-color: #FFE4E1; /* MistyRose */
+    background-color: #FFE4E1; /* MistyRose background for Message textarea */
 }
 
-/* Submit button styling */
 input[type="submit"] {
-    background-color: #6A5ACD; /* SlateBlue */
+    background-color: #6A5ACD; /* SlateBlue submit button */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -106,6 +104,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #483D8B; /* DarkSlateBlue */
+    background-color: #483D8B; /* DarkSlateBlue hover effect */
 }
+
 

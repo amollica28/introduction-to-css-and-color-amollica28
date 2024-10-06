@@ -1,12 +1,12 @@
 /* Global styles for all pages */
 body {
-    background-color: LightGray;
+    background-color: #F0F8FF; /* AliceBlue */
     font-family: Arial, sans-serif;
 }
 
 /* Navigation bar styling */
 nav {
-    background-color: DodgerBlue;
+    background-color: #4682B4; /* SteelBlue */
     padding: 10px;
 }
 
@@ -23,80 +23,89 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #FFFFFF; /* White */
     text-decoration: none;
 }
 
 /* Homepage header */
 .home-header h1 {
-    background-color: DodgerBlue;
+    background-color: #FF4500; /* OrangeRed */
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+/* Homepage paragraph */
+.home-paragraph {
+    background-color: #32CD32; /* LimeGreen */
+    padding: 15px;
+    color: #006400; /* DarkGreen */
 }
 
 /* About Me page header */
 .about-header h1 {
-    background-color: DarkOrchid;
+    background-color: #8A2BE2; /* BlueViolet */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* Contact Me page header */
-.contact-header h1 {
-    background-color: DarkRed;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Paragraph styling */
-p {
-    background-color: LightGreen;
-    padding: 15px;
-    color: darkgreen;
-}
-
-/* About Me page - specific paragraph styling */
+/* About Me page - Introduction */
 .about-intro {
-    background-color: LightCoral;
+    background-color: #FFB6C1; /* LightPink */
     padding: 15px;
+    color: #8B0000; /* DarkRed */
 }
 
+/* About Me page - Hobby section */
 .about-hobby {
-    background-color: PaleTurquoise;
+    background-color: #48D1CC; /* MediumTurquoise */
     padding: 15px;
+    color: #2F4F4F; /* DarkSlateGray */
+}
+
+/* Contact page header */
+.contact-header h1 {
+    background-color: #DC143C; /* Crimson */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Contact page form styles */
 form label {
-    color: DarkSlateGray;
+    color: #2E8B57; /* SeaGreen */
     font-weight: bold;
     font-size: 16px;
 }
 
-#name, #email, #subject, #message {
-    padding: 8px;
-    margin-top: 5px;
-    width: 100%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-}
-
 #name {
-    background-color: LightYellow;
+    background-color: #FFFACD; /* LemonChiffon */
 }
 
 #email {
-    background-color: LightCyan;
+    background-color: #E0FFFF; /* LightCyan */
 }
 
 #subject {
-    background-color: LavenderBlush;
+    background-color: #F5DEB3; /* Wheat */
 }
 
 #message {
-    background-color: MistyRose;
+    background-color: #FFE4E1; /* MistyRose */
 }
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #6A5ACD; /* SlateBlue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #483D8B; /* DarkSlateBlue */
+}
+

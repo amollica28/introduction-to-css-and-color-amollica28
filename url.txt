@@ -1,1 +1,1 @@
-<a href="https://github.com/amollica28/introduction-to-css-and-color-amollica28">Visit Repository!</a>
+Visit My Repository: https://github.com/amollica28/introduction-to-css-and-color-amollica28

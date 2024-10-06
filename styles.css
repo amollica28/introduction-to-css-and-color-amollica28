@@ -1,0 +1,91 @@
+body {
+    background-color: LightGray;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: DarkSlateGray;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Homepage header and paragraph */
+header h1 {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    background-color: LightGreen;
+    padding: 15px;
+    color: darkgreen;
+}
+
+/* About Me page styles */
+header h1 {
+    background-color: DarkOrchid;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p:nth-of-type(1) {
+    background-color: LightCoral;
+    padding: 15px;
+}
+
+p:nth-of-type(2) {
+    background-color: PaleTurquoise;
+    padding: 15px;
+}
+
+/* Contact page form styles */
+form label {
+    color: DarkSlateGray;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#name, #email, #subject, #message {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#name {
+    background-color: LightYellow;
+}
+
+#email {
+    background-color: LightCyan;
+}
+
+#subject {
+    background-color: LavenderBlush;
+}
+
+#message {
+    background-color: MistyRose;
+}
